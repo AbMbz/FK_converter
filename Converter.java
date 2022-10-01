@@ -9,6 +9,6 @@ public class Converter {
 
         double K = (T -32)*(5.0/9)+(273.15);
 
-        System.out.println("The temperature in kelvin is "+fmt.format(K));
+        System.out.println("The temperature in kelvin is "+fmt.format(K)+"K");
     }
 }

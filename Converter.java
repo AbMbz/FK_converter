@@ -3,7 +3,7 @@ import java.text.DecimalFormat;
 public class Converter {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        DecimalFormat fmt = new DecimalFormat("0.###");
+        DecimalFormat fmt = new DecimalFormat("0.##");
         System.out.println("Enter temperature in F:");
         double T = scan.nextDouble();
 
